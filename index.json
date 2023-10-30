@@ -5,14 +5,14 @@
     "baseUrl": "https://boxnovel.com",
     "lang": "en",
     "typeSource": "madara",
-    "iconUrl": "http://192.168.1.3:8080/icons/mangayomi-fr-frscan.png",
+    "iconUrl": "http://192.168.1.8:8080/icons/mangayomi-fr-frscan.png",
     "dateFormat": "MMMM d, yyyy",
     "dateFormatLocale": "en",
     "isNsfw": false,
     "hasCloudflare": false,
-    "sourceCodeUrl": "http://192.168.1.3:8080/novel/multisrc/madara/madara-v0.1.dart",
+    "sourceCodeUrl": "http://192.168.1.8:8080/novel/multisrc/madara/madara-v0.3.dart",
     "apiUrl": "",
-    "version": "0.1",
+    "version": "0.3",
     "isFullData": false,
     "appMinVerReq": "0.0.46"
   }

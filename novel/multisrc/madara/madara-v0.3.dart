@@ -4,10 +4,11 @@ import 'package:bridge_lib/bridge_lib.dart';
 getPopularNovel(MNovel novel) async {
   final url = "${novel.baseUrl}/novel/page/${novel.page}/?m_orderby=views";
   final data = {"url": url, "sourceId": novel.sourceId};
-  final res = await MBridge.http('GET', json.encode(data));
-  if (res.hasError) {
-    return novel;
+  final response = await MBridge.http('GET', json.encode(data));
+  if (response.hasError) {
+    return response;
   }
+  String res = response.body;
   novel.urls = MBridge.xpath(res, '//*[@class^="post-title"]/h3/a/@href');
   var images = MBridge.xpath(res, '//*[@id^="manga-item"]/a/img/@data-src');
   if (images.isEmpty) {
