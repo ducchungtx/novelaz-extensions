@@ -2,7 +2,7 @@ import '../../../config/config.dart';
 import '../../../model/source.dart';
 import '../../../utils/utils.dart';
 
-const madaraVersion = "0.1";
+const madaraVersion = "0.3";
 const madaraSourceCodeUrl =
     "$defaultExtensionPath/novel/multisrc/madara/madara-v$madaraVersion.dart";
 const defaultDateFormat = "MMMM dd, yyyy";
