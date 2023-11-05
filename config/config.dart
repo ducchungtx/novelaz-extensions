@@ -1,1 +1,1 @@
-const defaultExtensionPath = "http://192.168.1.7:8080";
+const defaultExtensionPath = "http://192.168.1.2:8080";
